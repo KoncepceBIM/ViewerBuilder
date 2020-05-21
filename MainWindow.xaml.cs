@@ -1,15 +1,11 @@
 ﻿using Microsoft.Win32;
 using Serilog;
-using Serilog.Formatting.Json;
-using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 using System.Windows;
 using Xbim.Common;
 using Xbim.Ifc;
@@ -68,6 +64,8 @@ namespace ViewerBuilder
             IfcStore.ModelProviderFactory.UseMemoryModelProvider();
             var package = Path.ChangeExtension(path, "data.zip");
 
+            Log.Information($"Opening model: {path}");
+            
             using (var model = IfcStore.Open(path))
             using (var cache = model.BeginInverseCaching())
             using (var file = File.Create(package))
