@@ -11,7 +11,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <DockPanel>
+        <DockPanel Grid.Row="0"> 
             <Button Padding="3" Margin="5" Name="btnOpenFile" Click="btnOpenFile_Click">Vyberte IFC soubor</Button>
             <TextBlock x:Name="txtFilePath"></TextBlock>
         </DockPanel>

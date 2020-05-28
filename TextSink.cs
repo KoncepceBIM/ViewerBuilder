@@ -11,11 +11,11 @@ using System.Windows.Threading;
 
 namespace ViewerBuilder
 {
-    class TextBlockSink : ILogEventSink
+    class TextSink : ILogEventSink
     {
         public delegate void UpdateTextCallback(string message);
 
-        public TextBlockSink(UpdateTextCallback callback)
+        public TextSink(UpdateTextCallback callback)
         {
             this.callback = callback;
         }
