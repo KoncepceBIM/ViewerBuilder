@@ -66,7 +66,7 @@ namespace ViewerBuilder
             // set up xbim logging
             XbimLogging.LoggerFactory.AddSerilog();
             IfcStore.ModelProviderFactory.UseMemoryModelProvider();
-            var package = Path.ChangeExtension(path, "data.zip");
+            var package = Path.ChangeExtension(path, "web.zip");
 
             Log.Information($"Opening model: {path}");
             
