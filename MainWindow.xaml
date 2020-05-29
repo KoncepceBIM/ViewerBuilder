@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ViewerBuilder"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="500">
+        Title="3D Web Builder" Height="400" Width="500" Icon="favicon.ico">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
