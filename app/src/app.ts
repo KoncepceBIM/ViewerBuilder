@@ -37,7 +37,10 @@ export class Application {
             if (args.id != null) {
                 this.service.getProperties(args.id).then(psets => {
                     this.properties.render(psets);
+                    document.getElementsByTagName('body')[0].classList.remove('collapsed-panel')
                 });
+            } else {
+                document.getElementsByTagName('body')[0].classList.add('collapsed-panel')
             }
         });
     }

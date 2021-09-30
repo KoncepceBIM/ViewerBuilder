@@ -4,6 +4,7 @@
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
+        "target": "ES5",
         "sourceMap": true,
         "declaration": false
     }, 
