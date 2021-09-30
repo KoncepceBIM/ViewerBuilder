@@ -6,8 +6,6 @@ using System;
 using System.Collections.Concurrent;
 using System.Globalization;
 using System.IO;
-using System.Windows.Controls;
-using System.Windows.Threading;
 
 namespace ViewerBuilder
 {

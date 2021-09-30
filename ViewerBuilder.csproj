@@ -53,87 +53,31 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>87C30DB25DEE6ECB38E7D55F684612633BD175D0</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>DBF1393040D4A1306540C5A36F4EF3FE008E2DA7</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>ViewerBuilder_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>ViewerBuilder_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Configuration, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Extensions.Configuration.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Extensions.Configuration.Abstractions.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Extensions.Configuration.Binder.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Logging, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Extensions.Logging.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Extensions.Logging.Abstractions.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Options, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Extensions.Options.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Primitives, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Extensions.Primitives.2.1.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
-      <HintPath>packages\Serilog.2.8.0\lib\net46\Serilog.dll</HintPath>
-    </Reference>
-    <Reference Include="Serilog.Extensions.Logging, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
-      <HintPath>packages\Serilog.Extensions.Logging.3.0.1\lib\netstandard2.0\Serilog.Extensions.Logging.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
-    </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
-    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
-      <Private>True</Private>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
-    </Reference>
     <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encodings.Web, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Text.Encodings.Web.4.7.1\lib\net461\System.Text.Encodings.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Json, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Text.Json.4.7.2\lib\net461\System.Text.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -146,30 +90,6 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="Xbim.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>packages\Xbim.Common.5.1.289\lib\net47\Xbim.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Xbim.Geometry.Engine.Interop, Version=5.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>packages\Xbim.Geometry.Engine.Interop.5.1.317\lib\net47\Xbim.Geometry.Engine.Interop.dll</HintPath>
-    </Reference>
-    <Reference Include="Xbim.Ifc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>packages\Xbim.Ifc.5.1.289\lib\net47\Xbim.Ifc.dll</HintPath>
-    </Reference>
-    <Reference Include="Xbim.Ifc2x3, Version=5.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>packages\Xbim.Ifc2x3.5.1.289\lib\net47\Xbim.Ifc2x3.dll</HintPath>
-    </Reference>
-    <Reference Include="Xbim.Ifc4, Version=5.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>packages\Xbim.Ifc4.5.1.289\lib\net47\Xbim.Ifc4.dll</HintPath>
-    </Reference>
-    <Reference Include="Xbim.IO.MemoryModel, Version=5.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>packages\Xbim.IO.MemoryModel.5.1.289\lib\net47\Xbim.IO.MemoryModel.dll</HintPath>
-    </Reference>
-    <Reference Include="Xbim.ModelGeometry.Scene, Version=5.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>packages\Xbim.ModelGeometry.Scene.5.1.317\lib\net47\Xbim.ModelGeometry.Scene.dll</HintPath>
-    </Reference>
-    <Reference Include="Xbim.Tessellator, Version=5.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>packages\Xbim.Tessellator.5.1.289\lib\net47\Xbim.Tessellator.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -208,11 +128,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="ViewerBuilder_1_TemporaryKey.pfx" />
     <None Include="ViewerBuilder_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -236,14 +157,21 @@
   <ItemGroup>
     <Resource Include="favicon.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Serilog.Extensions.Logging">
+      <Version>3.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="System.IO.Compression">
+      <Version>4.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Text.Json">
+      <Version>4.7.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xbim.Geometry">
+      <Version>5.1.317</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="packages\Xbim.Geometry.Engine.Interop.5.1.317\build\net47\Xbim.Geometry.Engine.Interop.targets" Condition="Exists('packages\Xbim.Geometry.Engine.Interop.5.1.317\build\net47\Xbim.Geometry.Engine.Interop.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('packages\Xbim.Geometry.Engine.Interop.5.1.317\build\net47\Xbim.Geometry.Engine.Interop.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Xbim.Geometry.Engine.Interop.5.1.317\build\net47\Xbim.Geometry.Engine.Interop.targets'))" />
-  </Target>
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
